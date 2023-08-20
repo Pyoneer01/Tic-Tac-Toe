@@ -3,6 +3,7 @@ const wins = [[1,2,3], [4,5,6], [7,8,9], [1,4,7], [2,5,8], [3,6,9], [1,5,9], [3,
 var c1, c2, c3;
 var turns = 9;
 var started = false;
+$(".square").css("cursor", "pointer");
 
 $(document).click(function() {
     if (!started) {
